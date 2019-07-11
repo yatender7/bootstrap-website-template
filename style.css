@@ -1,0 +1,350 @@
+*{
+    font-family: 'Roboto', sans-serif;
+}
+
+.nav-item
+{
+    padding-right: 10px;
+    margin-left: 20PX;
+}
+
+.bgimg
+{
+    background-image: url(images/bgimg.jpg);
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    width: 100%;
+    height: 756px;
+}
+
+.heading
+{
+    padding-top: 300px;
+    box-sizing: border-box;
+}
+.heading h2
+{
+    font-size: 30px;
+    font-family: monospace;
+}
+
+.heading h1
+{
+    font-size: 50px;
+    font-family: monospace;
+    font-weight: bolder;
+}
+
+/*.............services.......................*/
+
+.services
+{
+    padding: 100px 0px 70px;
+    height: auto;
+}
+.services h1
+{
+    font-weight: bolder;
+}
+.icon
+{
+    margin: 80px 0px ;
+    background-color: blueviolet;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    padding: 25px;
+    margin-left: 130px;
+}
+.row-setting p
+{
+    color: #6c757d!important;
+    padding: 10px;
+}
+
+/*...........portfolio section.........*/
+
+.portfolio
+{
+    background-color: rgba(0,0,0,.1);
+    height: auto;
+    width: 100%;
+    padding-top: 100px 0px 50px;
+}
+
+.card img
+{
+    height: 250px;
+}
+.portsetting
+{
+    padding-top: 100px;
+    padding-bottom: 60px;
+    
+}
+.portsetting h1
+{
+    font-size: 50px;
+    font-weight: bolder;
+}
+
+.card
+{
+    margin-top: 40px;
+}
+
+/*...........team section.......*/
+
+.team
+{
+    width: 100%;
+    height: auto;
+    padding: 50px 0px 50px;
+    
+}
+.team h1
+{
+    font-size: 50px;
+    font-weight: bolder;
+}
+
+.teamsetting
+{
+    margin-top: 70px;
+}
+
+/*...............contact section.......*/
+
+.contact
+{
+    height: auto;
+    text-align: center;
+}
+
+/*....................
+.................
+.........................
+.....................
+...............*/
+
+/*.............responsive........*/
+
+
+@media(max-width:299px)
+{
+     .heading h2
+    {
+        font-size: 17px;
+    }
+    .heading h1
+    {
+        font-size: 10px;
+    }
+    .services h1
+    {
+        font-size: 25px;
+    }
+    .services p
+    {
+        font-size: 14px
+    }
+    .icon
+   {
+    margin: 80px 0px ;
+    background-color: blueviolet;
+    width:70px;
+    height: 70px;
+    border-radius: 50%;
+    padding: 11px;
+    margin-left: 50px;
+   }
+    .services h2
+    {
+        font-size: 20px;
+    }
+    
+    .portsetting h1
+  {
+    font-size: 20px;
+    font-weight: bolder;
+  }
+    .team h1
+  {
+    font-size: 15px;
+    font-weight: bolder;
+ }
+}
+
+@media (min-width:300px) and (max-width:376px){
+    .heading h2
+{
+    font-size: 20px;
+    font-family: monospace;
+}
+
+.heading h1
+{
+    font-size: 15px;
+    font-family: monospace;
+    font-weight: bolder;
+}
+    .icon
+{
+    margin: 80px 0px ;
+    background-color: blueviolet;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    padding: 15px;
+    margin-left: 90px;
+}
+    .portsetting h1
+{
+    font-size: 30px;
+    font-weight: bolder;
+}
+    .card
+{
+   margin: 20px;
+}
+    .team h1
+{
+    font-size: 25px;
+    font-weight: bolder;
+}
+   
+}
+
+@media (min-width:377px) and (max-width:480px)
+{
+    .heading h2
+    {
+        font-size: 28px;
+    }
+    .heading h1
+    {
+        font-size: 14px;
+    }
+    .icon
+   {
+    margin: 80px 0px ;
+    background-color: blueviolet;
+    width:70px;
+    height: 70px;
+    border-radius: 50%;
+    padding: 11px;
+    margin-left: 90px;
+   }
+    
+    .portsetting h1
+  {
+    font-size: 30px;
+    font-weight: bolder;
+  }
+    .team h1
+  {
+    font-size: 30px;
+    font-weight: bolder;
+ }
+}
+
+@media (min-width:481px) and (max-width:767px)
+{
+     .heading h2
+    {
+        font-size: 35px;
+    }
+    .heading h1
+    {
+        font-size: 16px;
+    }
+    .icon
+   {
+    margin: 80px 0px ;
+    background-color: blueviolet;
+    width:70px;
+    height: 70px;
+    border-radius: 50%;
+    padding: 11px;
+    margin-left: 140px;
+   }
+    
+    .portsetting h1
+  {
+    font-size: 35px;
+    font-weight: bolder;
+  }
+    .team h1
+  {
+    font-size: 35px;
+    font-weight: bolder;
+ }
+}
+
+@media (min-width:768px) and (max-width:1024px)
+{
+     .heading h2
+    {
+        font-size: 45px;
+    }
+    .heading h1
+    {
+        font-size: 20px;
+    }
+    .icon
+   {
+    margin: 80px 0px ;
+    background-color: blueviolet;
+    width:70px;
+    height: 70px;
+    border-radius: 50%;
+    padding: 11px;
+    margin-left: 70px;
+   }
+    
+    .portsetting h1
+  {
+    font-size: 40px;
+    font-weight: bolder;
+  }
+    .team h1
+  {
+    font-size: 40px;
+    font-weight: bolder;
+ }
+}
+
+@media (min-width:1025px) and (max-width:1280px)
+{
+     .heading h2
+    {
+        font-size: 50px;
+    }
+    .heading h1
+    {
+        font-size: 24px;
+    }
+    .icon
+   {
+    margin: 80px 0px ;
+    background-color: blueviolet;
+    width:70px;
+    height: 70px;
+    border-radius: 50%;
+    padding: 11px;
+    margin-left: 100px;
+   }
+    
+    .portsetting h1
+  {
+    font-size: 45px;
+    font-weight: bolder;
+  }
+    .team h1
+  {
+    font-size: 45px;
+    font-weight: bolder;
+ }
+}
+
+
